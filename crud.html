@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD Operations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Manage Projects</h1>
+
+  <form id="project-form">
+    <label>
+      Project Name
+      <input type="text" id="name" required>
+    </label>
+    <br>
+    <label>
+      Image URL
+      <input type="text" id="image" required>
+    </label>
+    <br>
+    <label>
+      Project Description
+      <input type="text" id="description" required>
+    </label>
+    <br>
+    <label>
+      Project URL
+      <input type="text" id="link" required>
+    </label>
+    <button type="submit" id="add-button">Add Project</button>
+    <button type="button" id="update-button" hidden>Update Project</button>
+  </form>
+
+  <ul id="project-list"></ul>
+
+  <script type CRUD="module" src="crud.js"></script>
+</body>
+
+</html>
